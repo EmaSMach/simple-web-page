@@ -1,0 +1,139 @@
+* {
+    /* --webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* navbar */
+.navbar {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+}
+
+.menu {
+    width: 100%;
+    /* flex: 1; */
+    /* height: 5rem; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+
+.texto {
+    text-transform: uppercase;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.icon {
+    margin: 0px 12px;
+}
+
+.search {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.menu:last-child {
+    padding-right: 15px;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu-item {
+    padding: 0px 13px;
+}
+
+.menu:nth-child(3) > a {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* aside links */
+
+.aside-links-container {
+    position: fixed;
+    right: 0px;
+    top: 130px;
+}
+
+.tip {
+    color: black;
+    background-color: white;
+    padding: 5px 20px 5px 5px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    border-right: none;
+    display: block;
+}
+
+/* main */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* padding: 5px; */
+    /* border-radius: 10px; */
+    width: 290px;
+    margin: 12px;
+    margin-top: 25px;
+    background-color: #f7f7f7;
+}
+
+.card img {
+    width: 100%;
+    /* border-radius: 10px 10px 0px 0px; */
+}
+
+.card-body {
+    padding: 20px 30px;
+}
+
+.card-body p {
+    margin-top: 18px
+}
