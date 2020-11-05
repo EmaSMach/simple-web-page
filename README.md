@@ -1,6 +1,10 @@
 A simple web page built with Html, Css, and JavaSript
+=====================================================
+
 
 Screenshots:
+------------
+
 
 ![screenshot top](img/screenshot1.JPG?raw=true "screenshot 1")
 
